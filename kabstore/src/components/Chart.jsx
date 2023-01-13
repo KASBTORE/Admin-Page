@@ -15,7 +15,7 @@ import Charts from "./Charts";
 function Chart() {
   return (
     // <div className= "w-screen h-full">
-    <div className="bg-[#D1E6FF] w-[80%] h-screen float-right  ">
+    <div className="bg-white w-[80%] h-screen float-right  ">
       <div className="bg-white h-[7%] w-full shadow-2xl ">
         <div className="contains flex  justify-between">
           <div className="input flex w-[30%]  h-[45px] bg-white m-2 gap-2 border-gray-200 border-2  rounded-xl ">
@@ -83,14 +83,14 @@ function Chart() {
             </div>
             <div className="flex justify-between bottom-0">
               <div className="flex gap-2 ">
-                <div className="rounded-xl w-[2vw] h-[4vh] bg-orange-400  flex justify-center items-center">
+                <div className="rounded-xl w-[2vw] h-[4vh] bg-blue-600  flex justify-center items-center border-2 border-gray-400">
                   <i>
                     <IoMdAdd />
                   </i>
                 </div>
-                <div className="rounded-xl w-[2vw] h-[4vh] bg-orange-400  flex justify-center items-center">
+                <div className="rounded-xl w-[2vw] h-[4vh] bg-blue-600  flex justify-center items-center border-2 border-gray-400">
                   <i>
-                    <IoMdAdd />
+                    <GiAmmoBox />
                   </i>
                 </div>
               </div>
