@@ -46,7 +46,7 @@ function Charts() {
 
     }
   return (
-        <div style={{width:"250px",height:'250px',marginLeft:"20px"}}>
+        <div style={{width:"200px",height:'250px',marginLeft:"20px"}}>
             <Line data={data} options = {options}></Line>
             
         </div>

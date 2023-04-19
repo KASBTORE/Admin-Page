@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState}from "react";
 // import Chartjs from 'chart.js'
 import { TbMessageCircle2 } from "react-icons/tb";
 import { IoMdNotificationsOutline } from "react-icons/io";
@@ -13,10 +13,12 @@ import Charts from "./Charts";
 // Chartjs
 
 function Chart() {
+  const [showXAxisSidebar, setShowXAxisSidebar] = useState(true);
   return (
     // <div className= "w-screen h-full">
-    <div className="bg-white w-[80%] h-screen float-right  ">
-      <div className="bg-white h-[7%] w-full shadow-2xl ">
+   
+   <div className="bg-white w-[80%] h-screen float-right flex overflow-x-auto ">
+      <div className="bg-white h-screen w-screen shadow-2xl flex-1 ">
         <div className="contains flex  justify-between">
           <div className="input flex w-[30%]  h-[45px] bg-white m-2 gap-2 border-gray-200 border-2  rounded-xl ">
             <i className="mt-2 text-2xl">
@@ -55,22 +57,22 @@ function Chart() {
             <h1 className="p-3 text-white">Stastics</h1>
             <div className="flex justify-between ">
               <div className="orders ">
-                <div className="p-4">
+                <div className="ml-2">
                   <h1>orders</h1>
                   <p className="text-red-600">O</p>
                 </div>
 
-                <div className="">
+                <div className="mt-[-20px]">
                   <Charts />
                 </div>
               </div>
               <div className="sales">
-                <div className="p-4">
+                <div className="ml-2">
                   <h1>sales</h1>
                   <p className="text-red-600">O</p>
                 </div>
 
-                <div className="">
+                <div className="mt-[-20px]">
                   <Charts />
                 </div>
               </div>
@@ -116,7 +118,7 @@ function Chart() {
             </div>
           </div>
         </div>
-        <div className="flex gap-6 p-3 mt-4">
+        <div className="flex gap-6 p-3 mt-8">
           <div className="bg-white w-[40vw] h-[35vh] rounded-xl shadow-xl ">
             <h1 className="p-4">Orders</h1>
             <div className="flex gap-2">

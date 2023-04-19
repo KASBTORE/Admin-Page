@@ -20,7 +20,7 @@ function Sidebar() {
 
   return (
     // <div className=" w-full h-screen bg-[#060818] ">
-      <div className="h-screen w-[20vw] bg-[#060818]">
+      <div className="h-screen w-[20vw] bg-[#060818] ">
         <div className="flex  p-2 gap-2 ">
           <img src={logo} className="w-[70%]"></img>
           <i className="text-white text-3xl mt-2">
