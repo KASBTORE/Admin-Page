@@ -5,7 +5,7 @@ import Sidebar from './Sidebar'
 
 function DashBoard() {
   return (
-    <div className='w-full h-screen flex'>
+    <div className=' h-screen flex '>
         <Sidebar />
         <Chart/>
 

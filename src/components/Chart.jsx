@@ -10,6 +10,7 @@ import Chartjs from "chart.js/auto";
 Charts;
 import moment from "moment";
 import Charts from "./Charts";
+import {MdOutlinePeopleAlt} from 'react-icons/md'
 // Chartjs
 
 function Chart() {
@@ -17,8 +18,8 @@ function Chart() {
   return (
     // <div className= "w-screen h-full">
    
-   <div className="bg-white w-[80%] h-screen float-right flex overflow-x-auto ">
-      <div className="bg-white h-screen w-screen shadow-2xl flex-1 ">
+   <div className="bg-white w-[90%] h-screen float-right flex  shadow-2xl">
+      <div className=" ">
         <div className="contains flex  justify-between">
           <div className="input flex w-[30%]  h-[45px] bg-white m-2 gap-2 border-gray-200 border-2  rounded-xl ">
             <i className="mt-2 text-2xl">
@@ -52,10 +53,10 @@ function Chart() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between gap-6 mt-6 p-3">
-          <div className="bg-white w-[35vw] h-[30vh] shadow-2xl rounded-xl">
+        <div className="flex gap-8 mt-6 p-3">
+          <div className="bg-white w-[25vw] h-[30vh] shadow-2xl rounded-xl">
             <h1 className="p-3 text-white">Stastics</h1>
-            <div className="flex justify-between ">
+            <div className="flex gap-4 ">
               <div className="orders ">
                 <div className="ml-2">
                   <h1>orders</h1>
@@ -78,7 +79,7 @@ function Chart() {
               </div>
             </div>
           </div>
-          <div className="bg-blue-600 w-[25vw] h-[30vh] shadow-2xl rounded-xl flex flex-col justify-between">
+          <div className="bg-blue-600 w-[14vw] h-[30vh] shadow-2xl rounded-xl flex flex-col justify-between">
             <div className="flex justify-between text-white p-3">
               <h1 className=" ">Product</h1>
               <p>75</p>
@@ -101,7 +102,7 @@ function Chart() {
               </div>
             </div>
           </div>
-          <div className="bg-white w-[35vw] h-[30vh] shadow-2xl rounded-xl flex flex-col justify-between">
+          <div className="bg-white w-[25vw] h-[30vh] shadow-2xl rounded-xl flex flex-col justify-between">
             <div className="flex justify-between p-4">
               <div className="">
                 <h1>O</h1>
@@ -109,7 +110,7 @@ function Chart() {
               </div>
               <div className="text-2xl bg-purple-400 w-[3vw] h-[5vh] rounded-full items-center justify-center flex">
                 <i>
-                  <RxPerson />
+                  <MdOutlinePeopleAlt />
                 </i>
               </div>
             </div>
@@ -119,7 +120,7 @@ function Chart() {
           </div>
         </div>
         <div className="flex gap-6 p-3 mt-8">
-          <div className="bg-white w-[40vw] h-[35vh] rounded-xl shadow-xl ">
+          <div className="bg-white w-[25vw] h-[45vh] rounded-xl shadow-xl ">
             <h1 className="p-4">Orders</h1>
             <div className="flex gap-2">
               <div className="text-2xl bg-purple-400 w-[2vw] h-[4vh] rounded-full items-center justify-center flex ml-2">
@@ -133,8 +134,8 @@ function Chart() {
                 <p>-%</p>
               </div>
             </div>
-            <div className="bg-gray-200 w-[25vw] h-[2vh] ml-14 rounded-xl  ">
-              <div className="bg-purple-500 w-[17vw] h-[2vh] rounded-xl"></div>
+            <div className="bg-gray-200 w-[15vw] h-[2vh] ml-14 rounded-xl  ">
+              <div className="bg-purple-500 w-[10vw] h-[2vh] rounded-xl"></div>
             </div>
 
             <div className="flex gap-2 mt-4">
@@ -149,7 +150,7 @@ function Chart() {
                 <p>-%</p>
               </div>
             </div>
-            <div className="bg-gray-200 w-[25vw] h-[2vh] ml-14 rounded-xl  ">
+            <div className="bg-gray-200 w-[15vw] h-[2vh] ml-14 rounded-xl  ">
               <div className="bg-red-400 w-[10vw] h-[2vh] rounded-xl"></div>
             </div>
             <div className="flex gap-2 mt-4">
@@ -164,11 +165,11 @@ function Chart() {
                 <p>-%</p>
               </div>
             </div>
-            <div className="bg-gray-200 w-[25vw] h-[2vh] ml-14 rounded-xl  ">
+            <div className="bg-gray-200 w-[15vw] h-[2vh] ml-14 rounded-xl  ">
               <div className="bg-orange-300 w-[5vw] h-[2vh] rounded-xl"></div>
             </div>
           </div>
-          <div className="bg-[#D1E6FF] w-[20vw] h-[35vh] rounded-xl shadow-xl">
+          <div className="bg-[#D1E6FF] w-[15vw] h-[40vh] rounded-xl shadow-xl">
             <div className="flex flex-col p-4 text-gray-400">
               <div className="text-2xl bg-blue-200 w-[2vw] h-[4vh] rounded-full items-center justify-center flex ">
                 <i className="text-black">
@@ -181,7 +182,7 @@ function Chart() {
 
             <Charts />
           </div>
-          <div className="bg-red-100  w-[20vw] h-[35vh] rounded-xl shadow-xl">
+          <div className="bg-red-100  w-[15vw] h-[40vh] rounded-xl shadow-xl">
             <div className="flex flex-col p-4 text-gray-400">
               <div className="text-2xl bg-red-300 w-[2vw] h-[4vh] rounded-full items-center justify-center flex ">
                 <i className="text-red-400">
@@ -194,7 +195,7 @@ function Chart() {
 
             <Charts />
           </div>
-          <div className="bg-green-200 w-[20vw] h-[35vh] rounded-xl shadow-xl">
+          <div className="bg-green-200 w-[15vw] h-[40vh] rounded-xl shadow-xl">
             <div className="flex flex-col p-4 text-gray-400">
               <div className="text-2xl bg-green-300 w-[2vw] h-[4vh] rounded-full items-center justify-center flex ">
                 <i className="bg-green-200">
